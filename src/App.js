@@ -6,6 +6,8 @@ import SideBar from "./myLayout/SideBar";
 import Slideshow from "./components/Slideshow/Slideshow";
 import NoticeBoard from "./components/NoticeBoard/NoticeBoard";
 import Dropdown from "./components/Dropdown/Dropdown";
+import ShorboShes from "./components/ShorboShes/ShorboShes";
+import SlidingTextWithButto from "./components/SlidingTextWithButto/SlidingTextWithButto";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <div className="shop_container">
         <div>
           <NoticeBoard />
+          <ShorboShes />
+          <SlidingTextWithButto />
         </div>
         <SideBar></SideBar>
       </div>
