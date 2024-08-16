@@ -1,5 +1,5 @@
 import React from "react";
-import { FaHome } from "react-icons/fa"; // Importing a home icon
+// Importing a home icon
 
 const Dropdown = () => {
   return (
@@ -9,7 +9,7 @@ const Dropdown = () => {
         <div className="flex items-center space-x-4">
           {/* Home Icon */}
           <div className="flex items-center">
-            <FaHome className="text-3xl" />
+            {/* <FaHome className="text-3xl" /> */}
           </div>
           <div className=" group text-1xl">
             <button className=" text-orange-400  bg-white-600 px-4 py-2 rounded-md hover:bg-orange-400 hover:text-sky-400 focus:outline-none">
