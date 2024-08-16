@@ -1,5 +1,5 @@
 import React from "react";
-import { FaCheckCircle } from "react-icons/fa"; // Import an icon from react-icons
+// Import an icon from react-icons
 
 const NoticeBoard = () => {
   return (
@@ -19,23 +19,23 @@ const NoticeBoard = () => {
           <h2 className="text-xl font-bold mb-4">Notice Board</h2>
           <ul className="space-y-2">
             <li className="flex items-start">
-              <FaCheckCircle className="text-green-500 mr-2" />
+              {/* <FaCheckCircle className="text-green-500 mr-2" /> */}
               <span>অফিস আদেশ (সচিব মহোদয়ের রুটিন দায়িত্ব পালন)</span>
             </li>
             <li className="flex items-start">
-              <FaCheckCircle className="text-green-500 mr-2" />
+              {/* <FaCheckCircle className="text-green-500 mr-2" /> */}
               <span>ই-নথি থেকে ডিজিটাল নথি/ডি-নথিতে মাইগ্রেশন প্রসঙ্গে।</span>
             </li>
             <li className="flex items-start">
-              <FaCheckCircle className="text-green-500 mr-2" />
+              {/* <FaCheckCircle className="text-green-500 mr-2" /> */}
               <span>অফিস আদেশ (সচিব মহোদয়ের রুটিন দায়িত্ব পালন)</span>
             </li>
             <li className="flex items-start">
-              <FaCheckCircle className="text-green-500 mr-2" />
+              {/* <FaCheckCircle className="text-green-500 mr-2" /> */}
               <span>Office order</span>
             </li>
             <li className="flex items-start">
-              <FaCheckCircle className="text-green-500 mr-2" />
+              {/* <FaCheckCircle className="text-green-500 mr-2" /> */}
               <span>
                 পানি সম্পদ মন্ত্রণালয়ের কম্পিউটার অপারেটর, সাঁট মুদ্রাক্ষরিক কাম
                 কম্পিউটার অপারেটর
