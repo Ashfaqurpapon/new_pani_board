@@ -1,0 +1,37 @@
+.mySlides {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%; /* Center vertically */
+  left: 30%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Translate back to truly center */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: left;
+}
+
+.overlay-content {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  max-width: 80px; /* Adjust as needed */
+  margin-right: 20px; /* Space between logo and title */
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.title1 {
+  font-size: 15px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
